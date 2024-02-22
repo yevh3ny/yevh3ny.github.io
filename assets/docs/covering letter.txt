@@ -1,0 +1,32 @@
+Radko Yevhen Yuriyovich
+Ukraine, Ternovka
+Phone: +38 (095) 507-41-91
+Email: koyotische@gmail.com
+Telegram: @yevh3ny
+WhatsApp: +44 7399 769128
+
+
+
+[Recipient's Name]
+[Recipient's Job Title]
+[Company Name]
+[Company Address]
+[City, State, ZIP]
+
+Dear [Recipient's Name],
+
+I am writing to express my interest in the DevOps Engineer, Frontend Developer, or Backend Developer position at [Company Name], as advertised on [Job Board/Company Website]. With a strong background in IT infrastructure administration, server management, and web development, I believe that my skills and experience align well with the requirements of the role.
+
+Having worked in the IT industry for over a decade, I have acquired extensive knowledge and expertise in a range of technologies and tools. My key skills include fast and efficient troubleshooting of PC and network technical problems, administering LEMP servers, containerization and virtualization using Kubernetes, Docker, KVM, VMWare, Virtualbox, and Hyper-V, as well as process automation using Jenkins, Ansible, Terraform, and bash scripting. I am also proficient in Python basics and have experience with the GIT version control system.
+
+In addition, I have a solid understanding of security measures, including preventing DDoS, DoS, and http-flood attacks using IPTABLE, Nginx, CSF, and other tools. I have hands-on experience in database administration, working with MariaDB, MySQL, PostgreSQL, and MongoDB, and possess a strong command of the SQL query language. My proficiency extends to cloud platforms like AWS and Google Cloud Platform.
+
+Moreover, I have practical skills as a frontend developer, with expertise in HTML5, CSS3, SCSS, and Bootstrap. I am adept at cross-browser layout, ensuring compatibility across various platforms and browsers. I have experience integrating with CMS and frameworks such as WordPress and Laravel, optimizing website loading speed, and performing SEO website optimization. I am familiar with JavaScript, jQuery, Adobe Photoshop CS6, and Adobe Illustrator.
+
+Throughout my career, I have demonstrated strong leadership and team management abilities, having successfully managed a team of up to 10 individuals. I am detail-oriented, able to handle a large amount of information effectively, and have experience working in fast-paced environments.
+
+Please find attached my resume for your review. I would welcome the opportunity to further discuss how my skills and qualifications can contribute to the success of [Company Name]. Thank you for considering my application.
+
+Sincerely,
+
+Radko Yevhen Yuriyovich
