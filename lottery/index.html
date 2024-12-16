@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лотереи</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="smartphone">
+        <div class="screen">
+            <div class="app-content">
+                <div class="welcome-screen">
+                    <button id="start-game-btn">Играть в Спортлото 4 из 36</button>
+                    <button id="start-game-btn">Играть в лотерею 2</button>
+                    <button id="start-game-btn">Играть в лотерею 3</button>
+                    <button id="start-game-btn">Играть в лотерею 4</button>
+                    <div class="jackpot-balance">
+                        <div>Джекпот: <span id="jackpot1">1000</span></div>
+                        <div>Баланс: <span id="balance1">100</span></div>
+                    </div>
+                </div>
+
+                <div class="game-screen" style="display:none;">
+                    <div class="jackpot-balance">
+                        <div>Джекпот: <span id="jackpot">1000</span></div>
+                        <div>Баланс: <span id="balance">100</span></div>
+                    </div>
+                    <div class="multiplier">
+                        <button class="multiplier-btn" data-multiplier="2">x2</button>
+                        <button class="multiplier-btn" data-multiplier="10">x10</button>
+                    </div>
+                    <div class="numbers">
+                        <button class="number-btn" data-number="1">1</button>
+                        <button class="number-btn" data-number="2">2</button>
+                        <button class="number-btn" data-number="3">3</button>
+                        <button class="number-btn" data-number="4">4</button>
+                        <button class="number-btn" data-number="5">5</button>
+                        <button class="number-btn" data-number="6">6</button>
+                        <button class="number-btn" data-number="7">7</button>
+                        <button class="number-btn" data-number="8">8</button>
+                        <button class="number-btn" data-number="9">9</button>
+                        <button class="number-btn" data-number="10">10</button>
+                        <button class="number-btn" data-number="11">11</button>
+                        <button class="number-btn" data-number="12">12</button>
+                        <button class="number-btn" data-number="13">13</button>
+                        <button class="number-btn" data-number="14">14</button>
+                        <button class="number-btn" data-number="15">15</button>
+                        <button class="number-btn" data-number="16">16</button>
+                        <button class="number-btn" data-number="17">17</button>
+                        <button class="number-btn" data-number="18">18</button>
+                        <button class="number-btn" data-number="19">19</button>
+                        <button class="number-btn" data-number="20">20</button>
+                        <button class="number-btn" data-number="21">21</button>
+                        <button class="number-btn" data-number="22">22</button>
+                        <button class="number-btn" data-number="23">23</button>
+                        <button class="number-btn" data-number="24">24</button>
+                        <button class="number-btn" data-number="25">25</button>
+                        <button class="number-btn" data-number="26">26</button>
+                        <button class="number-btn" data-number="27">27</button>
+                        <button class="number-btn" data-number="28">28</button>
+                        <button class="number-btn" data-number="29">29</button>
+                        <button class="number-btn" data-number="30">30</button>
+                        <button class="number-btn" data-number="31">31</button>
+                        <button class="number-btn" data-number="32">32</button>
+                        <button class="number-btn" data-number="33">33</button>
+                        <button class="number-btn" data-number="34">34</button>
+                        <button class="number-btn" data-number="35">35</button>
+                        <button class="number-btn" data-number="36">36</button>
+                    </div>
+                    <div class="game-area">
+                        <button class="game-btn" id="playButton">Играть</button>
+                        <div class="winning-number">
+                            <h2>Выигрышная комбинация:</h2>
+                            <div id="winningNumbers" class="numbers-container"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
