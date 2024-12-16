@@ -1,0 +1,280 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.smartphone {
+    width: 395px; /* Ширина смартфона */
+    height: 667px; /* Высота смартфона */
+    background-color: #000;
+    border-radius: 36px; /* Скругление углов, как у современных смартфонов */
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden; /* Обрезаем все, что выходит за пределы смартфона */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: auto;
+}
+
+.app-content {
+    width: 100%;
+}
+
+/* Приветственное окно */
+.welcome-screen {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.welcome-screen button {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.welcome-screen button:hover {
+    background-color: #45a049;
+}
+
+/* Экран игры */
+.game-screen {
+    display: block;
+    text-align: center;
+}
+
+/* Джекпот и баланс */
+.jackpot-balance {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Множители */
+.multiplier {
+    margin-bottom: 20px;
+}
+
+.multiplier-btn {
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.multiplier-btn:hover {
+    background-color: #4caf50;
+    color: white;
+}
+
+/* Кнопки выбора чисел */
+.numbers {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.number-btn {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #4CAF50; /* Цвет фона для выбранной кнопки */
+    color: white; /* Цвет текста для выбранной кнопки */
+}
+
+.number-btn.active {
+    background-color: #4caf50;
+    color: white;
+}
+
+.number-btn:hover {
+    background-color: #4caf50;
+    color: white;
+}
+
+/* Кнопка Играть */
+#play-btn {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#play-btn:hover {
+    background-color: #45a049;
+}
+
+/* Джекпот и Баланс - Табло */
+.jackpot-balance {
+    display: flex;
+    justify-content: space-between;  /* Пространство между элементами */
+    margin-bottom: 20px;
+    padding: 0 10px;  /* Отступы слева и справа */
+    box-sizing: border-box;  /* Учитывать padding в общей ширине */
+}
+
+.jackpot-balance div {
+    background: linear-gradient(145deg, #8A2BE2, #3e8e41);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2), -4px -4px 10px rgba(255, 255, 255, 0.2);
+    min-width: 120px;  /* Чтобы блоки не сжимались */
+    text-align: center;
+    flex: 1;  /* Даем блокам одинаковую ширину */
+    margin: 0 10px;  /* Добавляем небольшое пространство между элементами */
+    max-width: 45%; /* Ограничиваем максимальную ширину */
+    box-sizing: border-box;  /* Учитываем padding и margin при расчете ширины */
+}
+
+/* Переопределим шрифт для табло */
+.jackpot-balance div span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+/* Множители */
+.multiplier {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.multiplier-btn {
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.multiplier-btn:hover {
+    background-color: #007b8b;
+}
+/* Добавим стиль для выбранных кнопок множителей */
+.multiplier-btn.selected {
+    background-color: #ff6347;
+    color: white;
+}
+
+/* Стиль для кнопки Играть */
+.game-btn {
+    padding: 15px 30px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.game-btn:hover {
+    background-color: #45a049;
+}
+
+
+.winning-number {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#winner {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff6347;
+}
+
+
+.game-btn {
+    padding: 15px 30px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.game-btn:hover {
+    background-color: #45a049;
+}
+
+
+.winning-number {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#winningNumbers {
+    display: flex;
+    justify-content: center;
+    gap: 10px;  
+    margin-top: 10px;
+}
+
+.number-box {
+    background-color: #3e8e41;  
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    min-width: 40px;  
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3), -2px -2px 8px rgba(255, 255, 255, 0.2);
+}
+
+
+.winning-number h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
